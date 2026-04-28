@@ -74,10 +74,14 @@ Students often work with raw syllabi that are difficult to convert into a practi
 6. Quiz questions are generated from the same syllabus structure.
 7. Quiz attempts are evaluated and stored.
 8. The report card shows progress, weak areas, strong areas, trends, and subject mastery.
-9. The syllabus is also indexed into the RAG layer as retrievable knowledge chunks.
+9. The syllabus is indexed into the RAG layer as retrievable knowledge chunks.
 10. When the user asks a doubt, the agent system retrieves relevant syllabus context and produces a context-aware answer using Groq.
 
 ## System Architecture
+
+### Architecture Diagram
+
+![Architecture Diagram](assets/architecture.png)
 
 ### High-Level Layers
 
@@ -147,7 +151,7 @@ Agents help the platform move beyond static responses. Instead of treating every
 
 - route the task to the right specialist
 - use structured academic context
-- personalize support based on the student’s learning history
+- personalize support based on the student's learning history
 
 ## MCP Integration
 
@@ -285,7 +289,7 @@ Academic-copilot/
 
 The project was extended in a non-breaking way.
 
-The following remain unchanged from the user’s point of view:
+The following remain unchanged from the user's point of view:
 
 - login and signup flow
 - dashboard UI
