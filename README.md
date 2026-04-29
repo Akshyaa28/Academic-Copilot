@@ -322,9 +322,6 @@ AGENTIC_MODE_ENABLED=true
 MCP_ENABLED=true
 MCP_SERVER_NAME=academic-copilot-mcp
 MONGODB_URI=mongodb://127.0.0.1:27017/academic_copilot
-RAG_EMBEDDING_BASE_URL=
-RAG_EMBEDDING_API_KEY=
-RAG_EMBEDDING_MODEL=
 ```
 
 ### 5. Start MongoDB
