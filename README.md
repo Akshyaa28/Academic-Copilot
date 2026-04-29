@@ -285,21 +285,6 @@ Academic-copilot/
 - `services/agents/*`
 - `services/llm/groqClient.js`
 
-## Existing Features Preserved
-
-The project was extended in a non-breaking way.
-
-The following remain unchanged from the user's point of view:
-
-- login and signup flow
-- dashboard UI
-- syllabus upload flow
-- study plan generation
-- quiz flow
-- report card flow
-- doubt chat page
-
-The new RAG and agent systems are added behind the backend so existing functionality remains intact with fallback behavior.
 
 ## Setup Instructions
 
